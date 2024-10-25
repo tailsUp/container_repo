@@ -1,0 +1,19 @@
+pro ~ % docker run -it ubuntu bash
+root@fe8625a1492c:/# mkdir /usr/src/app
+root@fe8625a1492c:/# ls
+bin  boot  dev  etc  home  lib  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+root@fe8625a1492c:/# cd user/src/app
+bash: cd: user/src/app: No such file or directory
+root@fe8625a1492c:/# cd usr
+root@fe8625a1492c:/usr# ls
+bin  games  include  lib  libexec  local  sbin  share  src
+root@fe8625a1492c:/usr# cd src
+root@fe8625a1492c:/usr/src# ls
+app
+root@fe8625a1492c:/usr/src# cd app
+root@fe8625a1492c:/usr/src/app# mkdir index.js
+root@fe8625a1492c:/usr/src/app# ls
+index.js
+root@fe8625a1492c:/usr/src/app# exit
+exit
+pro ~ % 

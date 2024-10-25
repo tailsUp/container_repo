@@ -1,0 +1,13 @@
+root@82b3537b2723:/usr/src/app# cd
+root@82b3537b2723:~# curl -sL https://deb.nodesource.com/setup_20.x | bash
+bash: curl: command not found
+root@82b3537b2723:~# curl -sL https://deb.nodesource.com/setup_20.x | bash
+apt install -y nodejs
+bash: curl: command not found
+….
+done.
+root@82b3537b2723:~# /# node /usr/src/app/index.js
+bash: /#: No such file or directory
+root@82b3537b2723:~# node /usr/src/app/index.js
+Hello World
+root@82b3537b2723:~# 

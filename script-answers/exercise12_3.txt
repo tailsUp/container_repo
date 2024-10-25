@@ -1,0 +1,13 @@
+root@82b3537b2723:/# ls
+bin  boot  dev  etc  home  lib  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+root@82b3537b2723:/# cd 'usr/src/app'
+root@82b3537b2723:/usr/src/app# ls
+index.js
+root@82b3537b2723:/usr/src/app# nano index.js
+root@82b3537b2723:/usr/src/app# rm index.js
+rm: cannot remove 'index.js': Is a directory
+root@82b3537b2723:/usr/src/app# rmdir index.js
+root@82b3537b2723:/usr/src/app# ls
+root@82b3537b2723:/usr/src/app# nano index.js
+root@82b3537b2723:/usr/src/app# ls
+index.js
